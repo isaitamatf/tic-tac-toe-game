@@ -1,0 +1,25 @@
+@use "colors";
+
+.ttt-board-size-option {
+  margin: 0 16px;
+  > button {
+    background-color: colors.$light-color;
+    color: colors.$dark-color;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  > button:hover {
+    background-color: darken(colors.$light-color, 20%);
+  }
+}
+
+.ttt-board-size-option.selected {
+  > button {
+    background-color: colors.$primary-color;
+  }
+  > button:hover {
+    background-color: darken(colors.$primary-color, 20%);
+  }
+}

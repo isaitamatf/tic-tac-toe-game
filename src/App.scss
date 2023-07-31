@@ -1,0 +1,38 @@
+@use "./styles/colors";
+@import url("./styles/index.scss");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  > #root {
+    background-color: colors.$bg-color;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    > .ttt-header {
+      background-color: colors.$dark-color;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 32px 0;
+      > span {
+        color: colors.$primary-color;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .ttt-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 0;
+  }
+}

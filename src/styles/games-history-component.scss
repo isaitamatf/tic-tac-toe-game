@@ -1,0 +1,32 @@
+@use "colors";
+
+.ttt-games-history {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  > .ttt-games-history-game {
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colors.$light-color;
+    border-radius: 8px;
+    > svg {
+      width: 75%;
+      height: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ttt-games-history {
+    > .ttt-games-history-game {
+      height: 16px;
+      width: 16px;
+      margin: 0 4px;
+      border-radius: 4px;
+    }
+  }
+}

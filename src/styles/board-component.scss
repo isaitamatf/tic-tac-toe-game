@@ -1,0 +1,119 @@
+@use "colors";
+
+.ttt-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 32px 0 16px 0;
+  flex-wrap: wrap;
+  > .ttt-row {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    > .ttt-card {
+      padding: 8px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      > label {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-right: 8px;
+        font-weight: 600;
+        color: colors.$light-color;
+      }
+      > svg {
+        width: 24px;
+        height: 24px;
+      }
+      > span {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        font-size: 32px;
+        margin-top: 8px;
+        font-weight: 600;
+        color: colors.$primary-color;
+      }
+    }
+  }
+  > .ttt-row.ttt-board-by-3,
+  > .ttt-row.ttt-board-by-6,
+  > .ttt-row.ttt-board-by-9 {
+    width: 550px;
+    height: 550px;
+    border: solid 2px colors.$light-color;
+    border-radius: 8px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  > .ttt-row.ttt-board-by-3 {
+    > .ttt-square {
+      width: 33.33%;
+      height: 33.33%;
+    }
+  }
+  > .ttt-row.ttt-board-by-6 {
+    > .ttt-square {
+      width: 16.66%;
+      height: 16.66%;
+    }
+  }
+  > .ttt-row.ttt-board-by-9 {
+    > .ttt-square {
+      width: 11.11%;
+      height: 11.11%;
+    }
+  }
+  > .ttt-row:last-child {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ttt-board {
+    > .ttt-row.ttt-board-by-3,
+    > .ttt-row.ttt-board-by-6,
+    > .ttt-row.ttt-board-by-9 {
+      order: 1;
+    }
+    > .ttt-row.player-o {
+      order: 2;
+      width: 50%;
+    }
+    > .ttt-row.player-x {
+      order: 3;
+      width: 50%;
+    }
+    > .ttt-row:last-child {
+      order: 4;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .ttt-board {
+    > .ttt-row.ttt-board-by-3,
+    > .ttt-row.ttt-board-by-6,
+    > .ttt-row.ttt-board-by-9 {
+      width: 380px;
+      height: 380px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ttt-board {
+    > .ttt-row.ttt-board-by-3,
+    > .ttt-row.ttt-board-by-6,
+    > .ttt-row.ttt-board-by-9 {
+      width: 280px;
+      height: 280px;
+    }
+  }
+}

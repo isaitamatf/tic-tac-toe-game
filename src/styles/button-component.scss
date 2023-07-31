@@ -1,0 +1,16 @@
+@use "colors";
+
+.ttt-button {
+  margin: 0 6px;
+  > button {
+    background-color: colors.$primary-color;
+    color: colors.$dark-color;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  > button:hover {
+    background-color: darken(colors.$primary-color, 20%);
+  }
+}

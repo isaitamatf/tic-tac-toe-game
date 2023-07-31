@@ -1,0 +1,20 @@
+.ttt-played-games {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  > svg {
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ttt-played-games {
+    > svg {
+      height: 16px;
+      width: 16px;
+      margin: 0 4px;
+    }
+  }
+}

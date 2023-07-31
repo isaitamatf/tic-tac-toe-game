@@ -1,0 +1,9 @@
+.ttt-board-size-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  > .ttt-row {
+    justify-content: center;
+    align-items: center;
+  }
+}

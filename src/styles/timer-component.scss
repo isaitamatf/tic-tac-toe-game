@@ -1,0 +1,10 @@
+@use "colors";
+
+.ttt-timer {
+  background-color: colors.$primary-color;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: colors.$dark-color;
+  font-weight: 600;
+}

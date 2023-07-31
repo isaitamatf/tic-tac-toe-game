@@ -1,0 +1,22 @@
+@use "colors";
+
+.ttt-square {
+  display: flex;
+  > button {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: solid 1px colors.$bg-color;
+    background-color: colors.$light-color;
+    > svg {
+      height: 75%;
+      width: 75%;
+    }
+  }
+}
+
+.ttt-square.disabled {
+  cursor: none;
+  pointer-events: none;
+}

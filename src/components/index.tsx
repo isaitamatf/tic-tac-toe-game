@@ -1,0 +1,11 @@
+export { BoardComponent } from "./board-component/board-component";
+export { BoardSizeOptionComponent } from "./board-size-option-component/board-size-option-component";
+export { BoardSizeOptionsComponent } from "./board-size-options-component/board-size-options-component";
+export { ButtonComponent } from "./button-component/button-component";
+export { GamesHistoryComponent } from "./games-history-component/games-history-component";
+export { ModalComponent } from "./modal-component/modal-component";
+export { PlayedGamesComponent } from "./played-games-component/played-games-component";
+export { SquareComponent } from "./square-component/square-component";
+export { StatsComponent } from "./stats-component/stats-component";
+export { TimerComponent } from "./timer-component/timer-component";
+export { VictoriesComponent } from "./victories-component/victories-component";
