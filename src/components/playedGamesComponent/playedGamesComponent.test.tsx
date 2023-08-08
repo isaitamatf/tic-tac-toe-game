@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import {
   PlayedGamesComponent,
   PlayedGamesComponentProps,
-} from "./played-games-component";
+} from "./playedGamesComponent";
 
 describe("Played Games Component", () => {
   const MockPlayedGamesComponentProps: PlayedGamesComponentProps = {

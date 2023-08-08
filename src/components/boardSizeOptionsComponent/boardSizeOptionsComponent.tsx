@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { BoardSizeOptionComponent, ButtonComponent } from "../../components";
+import { BoardSizeOptionComponent, ButtonComponent } from "..";
 import { THREE, SIX, NINE } from "../../constants";
 
 export type BoardSizeOptionsComponentProps = {

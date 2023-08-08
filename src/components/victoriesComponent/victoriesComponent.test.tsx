@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import {
   VictoriesComponent,
   VictoriesComponentProps,
-} from "./victories-component";
+} from "./victoriesComponent";
 import { PLAYER_O, PLAYER_X } from "../../constants";
 
 describe("Victories Component", () => {

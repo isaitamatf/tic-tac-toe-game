@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { StatsComponent, StatsComponentProps } from "./stats-component";
+import { StatsComponent, StatsComponentProps } from "./statsComponent";
 import { PLAYER_O, PLAYER_X } from "../../constants";
 
 describe("Stats Component", () => {

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { ButtonComponent, ButtonComponentProps } from "./button-component";
+import { ButtonComponent, ButtonComponentProps } from "./buttonComponent";
 import { THREE } from "../../constants";
 
 describe("Button Component", () => {

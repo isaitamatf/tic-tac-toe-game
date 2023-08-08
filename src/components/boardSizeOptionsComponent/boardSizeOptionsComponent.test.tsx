@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import {
   BoardSizeOptionsComponent,
   BoardSizeOptionsComponentProps,
-} from "./board-size-options-component";
+} from "./boardSizeOptionsComponent";
 
 describe("Board Size Options Component", () => {
   const MockBoardSizeOptionsComponentProps: BoardSizeOptionsComponentProps = {

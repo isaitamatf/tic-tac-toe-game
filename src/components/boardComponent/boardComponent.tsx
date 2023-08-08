@@ -8,7 +8,7 @@ import {
   ModalComponent,
   TimerComponent,
   ButtonComponent,
-} from "../../components";
+} from "..";
 import { THREE, PLAYER_O, PLAYER_X } from "../../constants";
 import {
   checkWinnerCombos,

@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 
-import { BoardComponent, BoardComponentProps } from "./board-component";
+import { BoardComponent, BoardComponentProps } from "./boardComponent";
 import { SIX, THREE, NINE, PLAYER_O, PLAYER_X } from "../../constants";
 
 describe("Board Component", () => {

@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import {
   BoardSizeOptionComponent,
   BoardSizeOptionComponentProps,
-} from "./board-size-option-component";
+} from "./boardSizeOptionComponent";
 import { THREE } from "../../constants";
 
 describe("Board Size Option Component", () => {

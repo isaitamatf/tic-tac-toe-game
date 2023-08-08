@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { SquareComponent, SquareComponentProps } from "./square-component";
+import { SquareComponent, SquareComponentProps } from "./squareComponent";
 import { PLAYER_X } from "../../constants";
 
 describe("Square Component", () => {

@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import {
   GamesHistoryComponent,
   GamesHistoryComponentProps,
-} from "./games-history-component";
+} from "./gamesHistoryComponent";
 import { PLAYER_O, PLAYER_X } from "../../constants";
 
 describe("Games History Component", () => {

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { ModalComponent } from "./modal-component";
+import { ModalComponent } from "./modalComponent";
 
 describe("Modal Component", () => {
   it("Modal is render", () => {

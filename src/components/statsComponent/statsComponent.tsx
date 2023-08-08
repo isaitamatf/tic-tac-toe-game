@@ -7,7 +7,7 @@ import {
   GamesHistoryComponent,
   VictoriesComponent,
   TimerComponent,
-} from "../../components";
+} from "..";
 import { RESPONSIVE_SIZE } from "../../constants";
 import { isPlayerWon } from "../../utils";
 

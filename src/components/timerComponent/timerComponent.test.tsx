@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { TimerComponent, TimerComponentProps } from "./timer-component";
+import { TimerComponent, TimerComponentProps } from "./timerComponent";
 
 describe("Timer Component", () => {
   const MockTimerComponentProps: TimerComponentProps = {
